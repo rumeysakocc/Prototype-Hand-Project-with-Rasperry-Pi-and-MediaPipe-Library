@@ -15,20 +15,23 @@ Mediapipe is related to image processing and images are stored and processed in 
 <img src="https://github.com/rumeysakocc/Prototype-Hand-Project-with-Rasperry-Pi-and-MediaPipe-Library/assets/115664157/420a6af5-36b5-40df-b30a-879be7d9e2cb" alt="images" width="1100" height="300">
 
 # RUN
+Always install the cooling fan before image processing on the Raspberry Pi. Make sure it has a good supply. If you get a "Low voltage warning Please check your power supply" warning, something is wrong with the supply. If a regulator is to be used, it must be connected to both the servos and the raspberry Pi from the ground and 5V pins to complete the circuit.
 
-
+https://github.com/rumeysakocc/Prototype-Hand-Project-with-Rasperry-Pi-and-MediaPipe-Library/assets/115664157/9f1d7567-8cbd-4ae0-b350-b0054281c4b0
 
 # Requirements:
 
 Raspberry Pi 4 
 
-9V and 2 1.5V batteries (for a total 12V battery supply)
+9V and 2 1.5V batteries (total 12V, for battery supply)
 
 Regulator
 
 USB camera
 
 model hand
+
+breadboard
 
 4 servo motors
 
