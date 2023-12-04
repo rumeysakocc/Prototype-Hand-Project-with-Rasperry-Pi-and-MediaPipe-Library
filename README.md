@@ -17,6 +17,10 @@ Mediapipe is related to image processing and images are stored and processed in 
 # RUN
 Always install the cooling fan before image processing on the Raspberry Pi. Make sure it has a good supply. If you get a "Low voltage warning Please check your power supply" warning, something is wrong with the supply. If a regulator is to be used, it must be connected to both the servos and the raspberry Pi from the ground and 5V pins to complete the circuit.
 
+
+*Since there are 4 PWM ports on the Raspberry Pi, only 4 finger movements are provided. The thumb is not connected to the servos.*
+
+
 https://github.com/rumeysakocc/Prototype-Hand-Project-with-Rasperry-Pi-and-MediaPipe-Library/assets/115664157/9f1d7567-8cbd-4ae0-b350-b0054281c4b0
 
 # Requirements:
