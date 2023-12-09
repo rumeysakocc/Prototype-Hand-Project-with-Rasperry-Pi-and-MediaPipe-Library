@@ -6,7 +6,7 @@ One of the most common applications using Mediapipe is Multiple Hand Movement De
 Mediapipe can detect the movements of multiple hands at the same time.
 It can also identify 21 landmarks on the hands. In this way, information such as hand shape, direction, angle, posture can be accessed. 
 As can be seen below, the landmarks of each finger joint and hand regions are defined. 
-With the x,y angle values of these points, we can bring the position of the hand into a state that our computer can understand.[1]
+With the x,y angle values of these points, we can bring the position of the hand into a state that our computer can understand.[1] 
 In this project, the y values of the end points (TIP points) and the bottom points (MCP points) of the fingers are compared with the loops to determine whether the finger is closed or open. 
 
 ## !The reason for this is that the coordinate system in the Mediapipe Library is the opposite of the coordinate system in mathematics:
