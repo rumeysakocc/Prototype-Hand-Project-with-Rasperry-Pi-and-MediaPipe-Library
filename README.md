@@ -7,7 +7,7 @@ Mediapipe can detect the movements of multiple hands at the same time.
 It can also identify 21 landmarks on the hands. In this way, information such as hand shape, direction, angle, posture can be accessed.
 As can be seen below, the landmarks of each finger joint and hand regions are defined. 
 With the x,y angle values of these points, we can bring the position of the hand into a state that our computer can understand.[1] 
-In this project, the y values of the end points (TIP points) and the bottom points (MCP points) of the fingers are compared with the loops to determine whether the finger is closed or open. 
+In this project, the y values of the end points (TIP points) and the bottom points (MCP points) of the fingers are compared with the loops to determine whether the finger is closed or open.  
 
 ## !The reason for this is that the coordinate system in the Mediapipe Library is the opposite of the coordinate system in mathematics:
 Mediapipe is related to image processing and images are stored and processed in a different way. In the mathematical coordinate system, the origin is usually located in the lower left corner or centre, and the direction of the y-axis is upwards. In images, however, the origin is usually in the upper left corner and the direction of the y-axis is downwards. This is a consequence of representing images as a matrix. In matrices, the index of the first row is zero, and the indices of subsequent rows increase. Therefore, the top row of the image is the zeroth row and the bottom row is the last row. This means that the y-axis is in the opposite direction. Since the Mediapipe library processes images in this way, the coordinate system is set accordingly.[2]
